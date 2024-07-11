@@ -1,0 +1,85 @@
+/* Tamaños de logos y contenedores del header  */
+
+.microsoftLogo {
+    max-width: 137px;
+    max-height: 54px;
+}
+
+.xboxLogo {
+    max-width: 95px;
+    max-height: 54px;
+}
+
+.gamePassNav {
+    max-width: 105.61px;
+    max-height: 53.5px;
+}
+
+.juegosNav {
+    max-width: 83.59px;
+    max-height: 53.5px;
+}
+
+.dispoNav {
+    max-width: 112.55px;
+    max-height: 53.5px;
+}
+
+.masNav {
+    max-width: 67.81px;
+    max-height: 53.5px;
+}
+
+
+.searchIcon {
+    max-width: 16px;
+    max-height: 24px;
+}
+
+.cartIcon {
+    width: 16px;
+    height: 42px;
+}
+
+.loginIcon {
+    width: 16px;
+    height: 30px;
+}
+
+
+/* -------------------------------------------------------  */
+
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    gap: 20px;
+    justify-content: center;
+    border: red 2px solid;
+}
+
+.navBarUl, .rightSideHeaderContainer, .searchContainer, .cartContainer, .loginContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.navBarContainer {
+    flex-grow: 1;
+    
+}
+
+.logoContainer {
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xboxLogoContainer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+
